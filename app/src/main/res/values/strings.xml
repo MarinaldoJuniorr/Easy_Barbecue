@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Easy_Barbecue</string>
+    <string name="calcular">Calcular</string>
+    <string name="duration">Duração do churrasco (Em horas)</string>
+    <string name="number_of_kids">Numero de crianças</string>
+    <string name="number_of_adults">Numero de adultos</string>
+    <string name="title">Churrasco Fácil</string>
+    <string name="meat_result">Quantidade de carne (Kg): %1$.2f Kg</string>
+    <string name="soft_drink_result">Quantidade de refrigerante (Litros): %1$.2f L</string>
+    <string name="restart">Faça um novo cálculo</string>
+    <string name="beer_fmt">Quantidade de cerveja (Latas): %1$.2f Latas</string>
+</resources>
