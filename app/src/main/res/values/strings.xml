@@ -8,5 +8,5 @@
     <string name="meat_result">Quantidade de carne (Kg): %1$.2f Kg</string>
     <string name="soft_drink_result">Quantidade de refrigerante (Litros): %1$.2f L</string>
     <string name="restart">Faça um novo cálculo</string>
-    <string name="beer_fmt">Quantidade de cerveja (Latas): %1$.2f Latas</string>
+    <string name="beer_result">Quantidade de cerveja (Latas): %1$d Latas</string>
 </resources>
