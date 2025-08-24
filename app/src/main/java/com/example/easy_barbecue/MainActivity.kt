@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnStart.setOnClickListener {
+        binding.btnCalculate.setOnClickListener {
             validationBarbecueData()
         }
     }
@@ -23,7 +23,8 @@ class MainActivity : AppCompatActivity() {
     private fun validationBarbecueData() {
         val numAdults = binding.tieAdults.text.toString().toIntOrNull()
         val numChildren = binding.tieChildren.text.toString().toIntOrNull()
-        val totalDuration = binding.tieDuration.text?.toString()?.replace(',', '.')?.trim()?.toDoubleOrNull()
+        val totalDuration =
+            binding.tieDuration.text?.toString()?.replace(',', '.')?.trim()?.toDoubleOrNull()
 
         if (numAdults == null || numChildren == null || totalDuration == null) {
             Snackbar.make(binding.root, "Preencha todos os campos!", Snackbar.LENGTH_LONG).show()
@@ -61,6 +62,7 @@ class MainActivity : AppCompatActivity() {
         binding.tieChildren.text?.clear()
         binding.tieDuration.text?.clear()
     }
+
     companion object {
         val MEAT_ADULT_UNTIL6H = 400
         val MEAT_CHILDREN_UNTIL6H = 200
@@ -75,5 +77,4 @@ class MainActivity : AppCompatActivity() {
         val SOFT_DRINK_ADULT_OVER6H = 1.5
         val SOFT_DRINK_CHILDREN_OVER6H = 0.75
     }
-
 }

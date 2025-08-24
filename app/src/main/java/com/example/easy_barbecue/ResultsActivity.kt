@@ -21,8 +21,6 @@ class ResultsActivity : AppCompatActivity() {
         val beerCans = ((totalBeer / 0.35).toInt() + if ((totalBeer % 0.35) != 0.0) 1 else 0)
         val sodaLiters = totaSoftDrink
 
-
-        // TODO: corrigir o resultado da beer para numero int, ao invez de float/double
         binding.tvMeatResult.text = getString(R.string.meat_result, meatKg)
         binding.tvBeerResult.text = getString(R.string.beer_result, beerCans)
         binding.tvSodaResult.text = getString(R.string.soft_drink_result, sodaLiters)
