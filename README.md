@@ -46,6 +46,4 @@ With Easy Barbecue you can:
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 <img src="Screenshots/tela1.png" width="260"/> <img src="Screenshots/tela2.png" width="260"/> <img src="Screenshots/tela3.png" width="260"/>
