@@ -29,7 +29,7 @@ With Easy Barbecue you can:
 
 - **Language:** Kotlin
 - **UI:** Android Views (XML)
-- **Android Components:** Activities / Fragments / ViewModel *(as used in the project)*
+- **Android Components:** Activities
 - **Concepts Practiced:** validation, formatting, user-friendly flows, clean UI structure
 
 ---
